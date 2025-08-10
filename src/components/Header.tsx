@@ -9,6 +9,20 @@ const Header = () => {
           <Link href="/" className="text-2xl font-bold text-neon-cyan hover:text-neon-magenta transition-colors duration-300">
             DRACONIS SYSTEMS
           </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex space-x-8">
+          <Link href="/about" className="text-white hover:text-neon-cyan transition-colors duration-300">
+          About
+          </Link>
+          <Link href="/privacy" className="text-white hover:text-neon-cyan transition-colors duration-300">
+          Privacy
+          </Link>
+          <Link href="/terms" className="text-white hover:text-neon-cyan transition-colors duration-300">
+          Terms
+          </Link>
+          </div>
+
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button className="text-white hover:text-neon-cyan transition-colors duration-300">

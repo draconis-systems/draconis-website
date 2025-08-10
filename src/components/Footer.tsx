@@ -11,6 +11,16 @@ const Footer = () => {
               Imagining solutions for tomorrow's adventures. Where innovation meets implementation.
             </p>
           </div>
+
+          <div>
+          <h4 className="text-lg font-semibold text-white mb-4">Legal</h4>
+          <ul className="space-y-2 text-sm text-gray-300">
+          <li><a href="/privacy" className="hover:text-neon-cyan transition-colors">Privacy Policy</a></li>
+          <li><a href="/terms" className="hover:text-neon-cyan transition-colors">Terms of Service</a></li>
+          <li><a href="/about" className="hover:text-neon-cyan transition-colors">About Us</a></li>
+          </ul>
+          </div>
+
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-gray-300">
